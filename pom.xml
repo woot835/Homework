@@ -3,6 +3,7 @@
   <groupId>HomeworkGit</groupId>
   <artifactId>HomeworkGit</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -48,4 +49,7 @@
   		<version>1.9.2</version>
   	</dependency>
   </dependencies>
+  <modules>
+  	<module>HomeworkAoP</module>
+  </modules>
 </project>
